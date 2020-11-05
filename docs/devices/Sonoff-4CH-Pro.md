@@ -62,3 +62,10 @@ Changing these switches for operations like inching and interlocking are also su
 * [Itead Product Page](http://sonoff.itead.cc/en/products/sonoff/sonoff-4ch-pro)
 * [Itead Shop](https://www.itead.cc/sonoff-4ch-pro.html)
 * [Itead Wiki](https://www.itead.cc/wiki/Sonoff_4CH_Pro)
+
+
+Warning
+The RF module (U7 SYN470R) is subject to external interference and can cause random button activation. Not being able to disable it via software, you can cut the connection line with MCU (pin 10 of U7) and ground the part towards the MCU. It is also possible to put the RF module in shutdown-mode by unsoldering or cutting pin 11
+
+
+
